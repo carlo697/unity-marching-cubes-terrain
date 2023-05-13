@@ -2772,9 +2772,10 @@ MonoBehaviour:
   debug: 0
   noiseOctaves: 3
   lodDistance: 100
-  updatePeriod: 0.3
+  updatePeriod: 0.08
   generatePeriod: 0.02
-  maxNumberOfChunksToGenerate: 2
+  maxNumberOfChunksToGenerate: 6
+  drawBounds: 0
   m_terrainNoise: {fileID: 224357611}
 --- !u!1 &1624746237
 GameObject:
