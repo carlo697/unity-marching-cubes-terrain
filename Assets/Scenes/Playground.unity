@@ -2958,18 +2958,18 @@ MonoBehaviour:
   chunkResolution: {x: 32, y: 128, z: 32}
   waterLevel: 56
   chunkMaterial: {fileID: 2100000, guid: 65b72e08686a94f4b9aa5b569881ab48, type: 2}
-  debug: 1
+  debug: 0
   updatePeriod: 0.08
   generatePeriod: 0.02
   maxNumberOfChunksToGenerate: 3
-  drawGizmos: 0
+  drawGizmos: 1
   m_terrainNoise: {fileID: 224357611}
   levelsOfDetail: 8
-  detailDistanceBase: 3
-  detailDistanceMultiplier: 1
+  detailDistanceBase: 2
+  detailDistanceMultiplier: 3
   detailDistanceDecreaseAtLevel: 1
-  detailDistanceConstantDecrease: 0.5
-  m_debugChunkCount: 648
+  detailDistanceConstantDecrease: 0
+  m_debugChunkCount: 688
 --- !u!1 &1609718541
 GameObject:
   m_ObjectHideFlags: 0
