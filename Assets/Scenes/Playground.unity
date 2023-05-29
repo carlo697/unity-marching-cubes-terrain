@@ -2961,8 +2961,9 @@ MonoBehaviour:
   debug: 0
   updatePeriod: 0.08
   generatePeriod: 0.02
-  maxNumberOfChunksToGenerate: 3
-  drawGizmos: 1
+  maxConsecutiveChunks: 3
+  maxConsecutiveChunksAtOneFrame: 2
+  drawGizmos: 0
   m_terrainNoise: {fileID: 224357611}
   levelsOfDetail: 8
   detailDistanceBase: 2
