@@ -220,7 +220,8 @@ MonoBehaviour:
   frequency: 0.03
   persistence: 0.5
   octaves: 1
-  middle: 0
+  useThreshold: 0
+  threshold: 0.5
   curve:
     serializedVersion: 2
     m_Curve:
@@ -636,13 +637,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18e86efc5564f8448b220d2e39186a65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: 0, z: 0}
+  offset: {x: 5.52, y: 0, z: 0}
   resolution: 512
   seed: 0
   frequency: 4
   persistence: 0.5
   octaves: 8
-  middle: 0
+  useThreshold: 1
+  threshold: 0.5
   curve:
     serializedVersion: 2
     m_Curve:
@@ -669,7 +671,7 @@ MonoBehaviour:
     m_RotationOrder: 4
   type: 0
   debugTime: 0
-  noiseOffset: {x: 5.52, y: 0, z: 0}
+  falloffOffset: {x: 0, y: 0, z: 0}
   useOutputCurve: 1
   outputCurve:
     serializedVersion: 2
@@ -2188,7 +2190,8 @@ MonoBehaviour:
   frequency: 0.01
   persistence: 0.5
   octaves: 5
-  middle: 0
+  useThreshold: 0
+  threshold: 0.5
   curve:
     serializedVersion: 2
     m_Curve:
@@ -2826,7 +2829,8 @@ MonoBehaviour:
   frequency: 0.03
   persistence: 0.5
   octaves: 3
-  middle: 0
+  useThreshold: 0
+  threshold: 0.5
   curve:
     serializedVersion: 2
     m_Curve:
@@ -3674,7 +3678,8 @@ MonoBehaviour:
   frequency: 0.03
   persistence: 0.5
   octaves: 1
-  middle: 0
+  useThreshold: 0
+  threshold: 0.5
   curve:
     serializedVersion: 2
     m_Curve:
