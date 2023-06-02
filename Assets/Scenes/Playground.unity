@@ -428,6 +428,9 @@ MonoBehaviour:
   noiseSize: 1500
   noiseOctaves: 8
   updateChunksInEditor: 1
+  useFalloff: 1
+  falloffNoiseSize: 1
+  falloffNoiseOctaves: 8
   curve:
     serializedVersion: 2
     m_Curve:
@@ -521,6 +524,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  useFalloffAsColor: 0
 --- !u!4 &224357612
 Transform:
   m_ObjectHideFlags: 0
@@ -3346,8 +3350,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   viewDistance: 5000
-  chunkSize: {x: 32, y: 256, z: 32}
-  chunkResolution: {x: 32, y: 256, z: 32}
+  chunkSize: {x: 32, y: 192, z: 32}
+  chunkResolution: {x: 32, y: 128, z: 32}
   waterLevel: 56
   chunkMaterial: {fileID: 2100000, guid: 65b72e08686a94f4b9aa5b569881ab48, type: 2}
   debug: 0
