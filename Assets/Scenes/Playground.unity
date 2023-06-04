@@ -19,7 +19,7 @@ RenderSettings:
   m_FogMode: 1
   m_FogDensity: 0.001
   m_LinearFogStart: 100
-  m_LinearFogEnd: 5000
+  m_LinearFogEnd: 10000
   m_AmbientSkyColor: {r: 0.9386859, g: 0.90466136, b: 0.84687346, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
@@ -419,19 +419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c0a105f68bd6b140913a4ff8df44e9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grassColor: {r: 0.44313726, g: 0.8, b: 0.41960785, a: 1}
-  darkGrassColor: {r: 0.35572562, g: 0.5849056, b: 0.33935562, a: 1}
-  snowColor: {r: 1, g: 1, b: 1, a: 1}
-  dirtColor: {r: 0.754717, g: 0.6362024, b: 0.18155926, a: 1}
-  sandColor: {r: 0.9647059, g: 0.89411765, b: 0.6784314, a: 1}
-  snowHeight: 85
-  sandHeight: 10
-  noiseSize: 1500
-  noiseOctaves: 8
-  updateChunksInEditor: 1
-  useFalloff: 1
-  falloffNoiseSize: 1
-  falloffNoiseOctaves: 8
+  mapSize: {x: 8000, y: 8000}
   curve:
     serializedVersion: 2
     m_Curve:
@@ -518,6 +506,90 @@ MonoBehaviour:
       value: 1
       inSlope: 0
       outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  grassColor: {r: 0.44313726, g: 0.8, b: 0.41960785, a: 1}
+  darkGrassColor: {r: 0.35572562, g: 0.5849056, b: 0.33935562, a: 1}
+  snowColor: {r: 1, g: 1, b: 1, a: 1}
+  dirtColor: {r: 0.754717, g: 0.6362024, b: 0.18155926, a: 1}
+  sandColor: {r: 0.9647059, g: 0.89411765, b: 0.6784314, a: 1}
+  snowHeight: 85
+  sandHeight: 10
+  seed: 0
+  noiseSize: 1500
+  noiseOctaves: 8
+  updateChunksInEditor: 1
+  seaLevel: 0.5
+  seaBorderBeforeThreshold: 0.05
+  seaBorderAfterThreshold: 0.1
+  landGap: 0.1
+  useFalloff: 1
+  falloffNoiseSize: 5.5
+  falloffNoiseOctaves: 8
+  falloffGradientCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.6
+      value: 0
+      inSlope: 1.625
+      outSlope: 1.625
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0.65
+      inSlope: 1.625
+      outSlope: 1.625
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  falloffOutputCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.5307223
+      outSlope: 0.5307223
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.33841327
+      value: 0.17960347
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 0.5
+      inSlope: 1.2400438
+      outSlope: 1.2400438
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
@@ -651,27 +723,29 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0.6
       value: 0
-      inSlope: 1.8750001
-      outSlope: 1.8750001
+      inSlope: 1.625
+      outSlope: 1.625
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
-      value: 0.75
-      inSlope: 0.6701728
-      outSlope: 0.6701728
-      tangentMode: 0
+      value: 0.65
+      inSlope: 1.625
+      outSlope: 1.625
+      tangentMode: 34
       weightedMode: 0
-      inWeight: 0.118773885
+      inWeight: 0.33333334
       outWeight: 0.33333334
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   type: 0
   debugTime: 0
-  falloffOffset: {x: 0, y: 0, z: 0}
+  falloffOffset: {x: 0, y: 0}
+  falloffScale: {x: 1, y: 1}
+  useFalloffOnly: 0
   useOutputCurve: 1
   outputCurve:
     serializedVersion: 2
@@ -679,42 +753,45 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 0.019236442
-      outSlope: 0.019236442
-      tangentMode: 0
+      inSlope: 0.5307223
+      outSlope: 0.5307223
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0
-      outWeight: 0.122605346
+      outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.4
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
+      time: 0.33841327
+      value: 0.17960347
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 136
       weightedMode: 0
       inWeight: 0.33333334
-      outWeight: 0.24396752
+      outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.6
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 1
+      time: 0.5
+      value: 0.5
+      inSlope: 1.2400438
+      outSlope: 1.2400438
+      tangentMode: 136
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 0.01954181
-      outSlope: 0.01954181
-      tangentMode: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 34
       weightedMode: 0
-      inWeight: 0.12068975
+      inWeight: 0.33333334
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  useSeaBorder: 0
+  seaBorderBeforeThreshold: 0.1
+  seaBorderAfterThreshold: 0.1
 --- !u!1 &235617438
 GameObject:
   m_ObjectHideFlags: 0
@@ -3399,7 +3476,7 @@ MonoBehaviour:
   viewDistance: 5000
   chunkSize: {x: 32, y: 192, z: 32}
   chunkResolution: {x: 32, y: 128, z: 32}
-  waterLevel: 56
+  waterLevel: 96
   chunkMaterial: {fileID: 2100000, guid: 65b72e08686a94f4b9aa5b569881ab48, type: 2}
   debug: 0
   updatePeriod: 0.08
@@ -3413,7 +3490,7 @@ MonoBehaviour:
   detailDistanceMultiplier: 3
   detailDistanceDecreaseAtLevel: 1
   detailDistanceConstantDecrease: 0
-  m_debugChunkCount: 688
+  m_debugChunkCount: 808
 --- !u!1 &1609718541
 GameObject:
   m_ObjectHideFlags: 0
