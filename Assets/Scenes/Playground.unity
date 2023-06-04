@@ -518,6 +518,7 @@ MonoBehaviour:
   snowColor: {r: 1, g: 1, b: 1, a: 1}
   dirtColor: {r: 0.754717, g: 0.6362024, b: 0.18155926, a: 1}
   sandColor: {r: 0.9647059, g: 0.89411765, b: 0.6784314, a: 1}
+  darkSandColor: {r: 0.53900003, g: 0.5017387, b: 0.39616504, a: 1}
   seaLevel: 0.3
   snowHeight: 0.8208333
   sandHeight: 0.3520833
