@@ -518,19 +518,19 @@ MonoBehaviour:
   snowColor: {r: 1, g: 1, b: 1, a: 1}
   dirtColor: {r: 0.754717, g: 0.6362024, b: 0.18155926, a: 1}
   sandColor: {r: 0.9647059, g: 0.89411765, b: 0.6784314, a: 1}
-  snowHeight: 85
-  sandHeight: 10
+  seaLevel: 0.3
+  snowHeight: 0.8208333
+  sandHeight: 0.3520833
   seed: 0
   noiseSize: 1500
   noiseOctaves: 8
   updateChunksInEditor: 1
-  seaLevel: 0.5
   seaBorderBeforeThreshold: 0.05
   seaBorderAfterThreshold: 0.1
   landGap: 0.1
   useFalloff: 1
   falloffNoiseSize: 5.5
-  falloffNoiseOctaves: 8
+  falloffNoiseOctaves: 9
   falloffGradientCurve:
     serializedVersion: 2
     m_Curve:
@@ -561,26 +561,26 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 0.5307223
-      outSlope: 0.5307223
+      inSlope: 0.31843343
+      outSlope: 0.31843343
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 0.33841327
-      value: 0.17960347
-      inSlope: 1
-      outSlope: 1
+      value: 0.1077621
+      inSlope: 0.6
+      outSlope: 0.6
       tangentMode: 136
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 0.5
-      value: 0.5
-      inSlope: 1.2400438
-      outSlope: 1.2400438
+      value: 0.3
+      inSlope: 1.1622839
+      outSlope: 1.1622839
       tangentMode: 136
       weightedMode: 0
       inWeight: 0.33333334
@@ -588,8 +588,8 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 1
-      outSlope: 1
+      inSlope: 1.4
+      outSlope: 1.4
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
@@ -715,8 +715,8 @@ MonoBehaviour:
   frequency: 4
   persistence: 0.5
   octaves: 8
-  useThreshold: 1
-  threshold: 0.5
+  useThreshold: 0
+  threshold: 0.3
   curve:
     serializedVersion: 2
     m_Curve:
@@ -753,26 +753,26 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 0.5307223
-      outSlope: 0.5307223
+      inSlope: 0.31843343
+      outSlope: 0.31843343
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 0.33841327
-      value: 0.17960347
-      inSlope: 1
-      outSlope: 1
+      value: 0.1077621
+      inSlope: 0.6
+      outSlope: 0.6
       tangentMode: 136
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 0.5
-      value: 0.5
-      inSlope: 1.2400438
-      outSlope: 1.2400438
+      value: 0.3
+      inSlope: 1.1622839
+      outSlope: 1.1622839
       tangentMode: 136
       weightedMode: 0
       inWeight: 0.33333334
@@ -780,8 +780,8 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 1
-      outSlope: 1
+      inSlope: 1.4
+      outSlope: 1.4
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
@@ -3476,7 +3476,6 @@ MonoBehaviour:
   viewDistance: 5000
   chunkSize: {x: 32, y: 192, z: 32}
   chunkResolution: {x: 32, y: 128, z: 32}
-  waterLevel: 96
   chunkMaterial: {fileID: 2100000, guid: 65b72e08686a94f4b9aa5b569881ab48, type: 2}
   debug: 0
   updatePeriod: 0.08
