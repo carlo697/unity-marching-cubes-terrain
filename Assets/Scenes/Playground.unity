@@ -1785,63 +1785,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0271df749728104eac22c3d897fd8ce, type: 3}
---- !u!1 &791668728
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 791668729}
-  - component: {fileID: 791668730}
-  m_Layer: 0
-  m_Name: Realtime Terrain
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &791668729
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 791668728}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1338120210}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &791668730
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 791668728}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c1106942c57d974e80b8ebe184efd5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  viewDistance: 1500
-  chunkSize: {x: 32, y: 192, z: 32}
-  chunkResolution: {x: 32, y: 128, z: 32}
-  waterLevel: 56
-  chunkMaterial: {fileID: 2100000, guid: 65b72e08686a94f4b9aa5b569881ab48, type: 2}
-  debug: 0
-  noiseOctaves: 3
-  lodDistance: 100
-  updatePeriod: 0.3
-  generatePeriod: 0.02
-  maxNumberOfChunksToGenerate: 32
-  multithreadedSorting: 1
-  m_terrainNoise: {fileID: 224357611}
 --- !u!1 &874605735
 GameObject:
   m_ObjectHideFlags: 0
@@ -3015,8 +2958,6 @@ Transform:
   m_Children:
   - {fileID: 402680573}
   - {fileID: 224357612}
-  - {fileID: 791668729}
-  - {fileID: 1609718544}
   - {fileID: 1574704712}
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -3491,61 +3432,6 @@ MonoBehaviour:
   detailDistanceDecreaseAtLevel: 1
   detailDistanceConstantDecrease: 0
   m_debugChunkCount: 808
---- !u!1 &1609718541
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1609718544}
-  - component: {fileID: 1609718545}
-  m_Layer: 0
-  m_Name: Realtime Terrain With Tree
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1609718544
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1609718541}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1338120210}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1609718545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1609718541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f8e204e999094349b922c257f58553c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  viewDistance: 2500
-  chunkSize: {x: 32, y: 192, z: 32}
-  chunkResolution: {x: 32, y: 128, z: 32}
-  waterLevel: 56
-  chunkMaterial: {fileID: 2100000, guid: 65b72e08686a94f4b9aa5b569881ab48, type: 2}
-  debug: 0
-  updatePeriod: 0.08
-  generatePeriod: 0.02
-  maxNumberOfChunksToGenerate: 6
-  drawGizmos: 1
-  m_terrainNoise: {fileID: 224357611}
 --- !u!1 &1624746237
 GameObject:
   m_ObjectHideFlags: 0
