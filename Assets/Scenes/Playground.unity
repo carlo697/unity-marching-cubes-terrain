@@ -521,14 +521,14 @@ MonoBehaviour:
   darkSandColor: {r: 0.53900003, g: 0.5017387, b: 0.39616504, a: 1}
   seaLevel: 0.3
   snowHeight: 0.8208333
-  sandHeight: 0.3520833
+  sandHeight: 0.3260416
   seed: 0
   noiseSize: 1500
   noiseOctaves: 8
   updateChunksInEditor: 1
   seaBorderBeforeThreshold: 0.05
   seaBorderAfterThreshold: 0.1
-  landGap: 0.1
+  landGap: 0.15
   useFalloff: 1
   falloffNoiseSize: 5.5
   falloffNoiseOctaves: 9
@@ -580,9 +580,9 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0.5
       value: 0.3
-      inSlope: 1.1622839
-      outSlope: 1.1622839
-      tangentMode: 136
+      inSlope: 1.2948444
+      outSlope: 1.2948444
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
@@ -772,9 +772,9 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0.5
       value: 0.3
-      inSlope: 1.1622839
-      outSlope: 1.1622839
-      tangentMode: 136
+      inSlope: 1.2948444
+      outSlope: 1.2948444
+      tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
