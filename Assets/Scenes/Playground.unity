@@ -19,7 +19,7 @@ RenderSettings:
   m_FogMode: 1
   m_FogDensity: 0.001
   m_LinearFogStart: 100
-  m_LinearFogEnd: 10000
+  m_LinearFogEnd: 5000
   m_AmbientSkyColor: {r: 0.9386859, g: 0.90466136, b: 0.84687346, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 619e305f5165a9946b7f72464e44ca4a, type: 3}
   m_Sun: {fileID: 2114283754330233425}
-  m_IndirectSpecularColor: {r: 0.089332215, g: 0.18969494, b: 0.30565947, a: 1}
+  m_IndirectSpecularColor: {r: 0.09045481, g: 0.19773644, b: 0.3440327, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -4909,14 +4909,14 @@ MonoBehaviour:
   generatePeriod: 0.02
   maxConsecutiveChunks: 3
   maxConsecutiveChunksAtOneFrame: 2
-  drawGizmos: 0
+  drawGizmos: 1
   m_terrainNoise: {fileID: 224357611}
   levelsOfDetail: 8
   detailDistanceBase: 2
   detailDistanceMultiplier: 3
   detailDistanceDecreaseAtLevel: 1
   detailDistanceConstantDecrease: 0
-  m_debugChunkCount: 808
+  m_debugChunkCount: 688
 --- !u!1 &1624746237
 GameObject:
   m_ObjectHideFlags: 0
@@ -7261,14 +7261,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2114283754330233424}
-  m_LocalRotation: {x: 0.9588284, y: -0.031317916, z: 0.25691724, w: 0.11688006}
+  m_LocalRotation: {x: 0.9444661, y: -0.054253276, z: 0.2530689, w: 0.20247602}
   m_LocalPosition: {x: 39.455, y: 0, z: 7.815}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2114283753834967213}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 166.1, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 155.8, y: -30, z: 0}
 --- !u!114 &2114283754330233427
 MonoBehaviour:
   m_ObjectHideFlags: 0
