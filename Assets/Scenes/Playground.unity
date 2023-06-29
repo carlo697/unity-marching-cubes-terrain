@@ -4942,12 +4942,13 @@ MonoBehaviour:
   maxConsecutiveChunksAtOneFrame: 2
   drawGizmos: 0
   m_terrainNoise: {fileID: 224357611}
+  distanceShape: 1
   levelsOfDetail: 8
   detailDistanceBase: 2
-  detailDistanceMultiplier: 3
+  detailDistanceMultiplier: 2.5
   detailDistanceDecreaseAtLevel: 1
   detailDistanceConstantDecrease: 0
-  m_debugChunkCount: 688
+  m_debugChunkCount: 568
 --- !u!114 &1574704715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4961,6 +4962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   viewDistance: 5000
+  distanceShape: 0
   chunkSize: {x: 8, y: 1, z: 8}
   chunkResolution: 32
   waterMaterial: {fileID: -876546973899608171, guid: 7de9b1892d63b524ab8e07311d8f14aa,
@@ -7353,6 +7355,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8616685848737228371, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
+        type: 3}
+      propertyPath: Grounded
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8616685848737228371, guid: c5efc39a8aaf6e64ea40e9ad573e9b47,
         type: 3}
       propertyPath: JumpHeight
