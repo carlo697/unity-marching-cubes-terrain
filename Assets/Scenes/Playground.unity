@@ -2151,6 +2151,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f0271df749728104eac22c3d897fd8ce, type: 3}
+--- !u!1 &872216872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 872216873}
+  m_Layer: 0
+  m_Name: Water
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &872216873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 872216872}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1338120210}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &874605735
 GameObject:
   m_ObjectHideFlags: 0
@@ -4232,6 +4263,7 @@ Transform:
   - {fileID: 402680573}
   - {fileID: 224357612}
   - {fileID: 1574704712}
+  - {fileID: 872216873}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4864,6 +4896,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1574704712}
   - component: {fileID: 1574704714}
+  - component: {fileID: 1574704715}
   m_Layer: 0
   m_Name: Realtime Terrain With Quad Tree
   m_TagString: Untagged
@@ -4902,14 +4935,12 @@ MonoBehaviour:
   chunkSize: {x: 32, y: 192, z: 32}
   chunkResolution: {x: 32, y: 128, z: 32}
   chunkMaterial: {fileID: 2100000, guid: 65b72e08686a94f4b9aa5b569881ab48, type: 2}
-  waterMaterial: {fileID: -876546973899608171, guid: 7de9b1892d63b524ab8e07311d8f14aa,
-    type: 3}
   debug: 0
   updatePeriod: 0.2
   generatePeriod: 0.02
   maxConsecutiveChunks: 3
   maxConsecutiveChunksAtOneFrame: 2
-  drawGizmos: 1
+  drawGizmos: 0
   m_terrainNoise: {fileID: 224357611}
   levelsOfDetail: 8
   detailDistanceBase: 2
@@ -4917,6 +4948,28 @@ MonoBehaviour:
   detailDistanceDecreaseAtLevel: 1
   detailDistanceConstantDecrease: 0
   m_debugChunkCount: 688
+--- !u!114 &1574704715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574704711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0a17130c37658243909475912a0a4b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewDistance: 5000
+  chunkSize: {x: 8, y: 1, z: 8}
+  chunkResolution: 32
+  waterMaterial: {fileID: -876546973899608171, guid: 7de9b1892d63b524ab8e07311d8f14aa,
+    type: 3}
+  waterParent: {fileID: 872216873}
+  generatePeriod: 0.3
+  drawGizmos: 0
+  m_terrainNoise: {fileID: 224357611}
+  levelsOfDetail: 8
 --- !u!1 &1624746237
 GameObject:
   m_ObjectHideFlags: 0
