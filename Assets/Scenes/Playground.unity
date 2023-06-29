@@ -4905,7 +4905,7 @@ MonoBehaviour:
   waterMaterial: {fileID: -876546973899608171, guid: 7de9b1892d63b524ab8e07311d8f14aa,
     type: 3}
   debug: 0
-  updatePeriod: 0.08
+  updatePeriod: 0.2
   generatePeriod: 0.02
   maxConsecutiveChunks: 3
   maxConsecutiveChunksAtOneFrame: 2
