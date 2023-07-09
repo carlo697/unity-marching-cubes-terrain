@@ -383,13 +383,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &36934767
 GameObject:
   m_ObjectHideFlags: 0
@@ -490,7 +490,7 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -533.1, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
@@ -597,13 +597,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &132371733
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,13 +704,13 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &139373074
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,13 +811,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &143312036
 GameObject:
   m_ObjectHideFlags: 0
@@ -1023,13 +1023,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &224357610
 GameObject:
   m_ObjectHideFlags: 0
@@ -1663,13 +1663,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!4 &253794431 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74,
@@ -1776,13 +1776,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &280062149
 GameObject:
   m_ObjectHideFlags: 0
@@ -1883,13 +1883,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &313928427
 GameObject:
   m_ObjectHideFlags: 0
@@ -1925,7 +1925,7 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -533.1, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
@@ -2097,13 +2097,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &341533877
 GameObject:
   m_ObjectHideFlags: 0
@@ -2204,13 +2204,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &358896742
 GameObject:
   m_ObjectHideFlags: 0
@@ -2311,13 +2311,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &376423790
 GameObject:
   m_ObjectHideFlags: 0
@@ -2418,13 +2418,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &397785663
 GameObject:
   m_ObjectHideFlags: 0
@@ -2525,7 +2525,7 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -533.1, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
@@ -2665,13 +2665,13 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &402680572
 GameObject:
   m_ObjectHideFlags: 0
@@ -2855,7 +2855,7 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -533.1, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
@@ -2962,7 +2962,7 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -533.1, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
@@ -3069,13 +3069,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &514735484
 GameObject:
   m_ObjectHideFlags: 0
@@ -3208,13 +3208,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &529448580
 GameObject:
   m_ObjectHideFlags: 0
@@ -3315,13 +3315,13 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 1
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 5.36
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &542508511
 GameObject:
   m_ObjectHideFlags: 0
@@ -3523,13 +3523,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &605140069
 GameObject:
   m_ObjectHideFlags: 0
@@ -3630,13 +3630,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &621790693
 GameObject:
   m_ObjectHideFlags: 0
@@ -3737,13 +3737,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &627681617
 GameObject:
   m_ObjectHideFlags: 0
@@ -3844,13 +3844,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &638541262
 GameObject:
   m_ObjectHideFlags: 0
@@ -3951,13 +3951,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &644832106
 GameObject:
   m_ObjectHideFlags: 0
@@ -4058,13 +4058,13 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &647792198
 GameObject:
   m_ObjectHideFlags: 0
@@ -4270,13 +4270,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &706258716
 GameObject:
   m_ObjectHideFlags: 0
@@ -4510,13 +4510,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &733100041
 GameObject:
   m_ObjectHideFlags: 0
@@ -4829,13 +4829,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &835282456
 GameObject:
   m_ObjectHideFlags: 0
@@ -4936,13 +4936,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &872216872
 GameObject:
   m_ObjectHideFlags: 0
@@ -5341,13 +5341,13 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 1
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 5.36
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &896588494
 GameObject:
   m_ObjectHideFlags: 0
@@ -5654,11 +5654,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b0b57b889e265d41a7cab6ec365d526, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resolution: {x: 4, y: 4, z: 4}
+  resolution: {x: 32, y: 32, z: 32}
   size: {x: 32, y: 32, z: 32}
   noiseSize: 1
   noiseOffset: {x: 0, y: 0, z: 0}
-  terrainNoise: {fileID: 0}
+  terrainShape: {fileID: 224357611}
   debug: 1
   threshold: 0
   useMiddlePoint: 0
@@ -5765,13 +5765,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &968518968
 GameObject:
   m_ObjectHideFlags: 0
@@ -5872,13 +5872,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &970814626
 GameObject:
   m_ObjectHideFlags: 0
@@ -5979,13 +5979,13 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 1
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &992474998
 GameObject:
   m_ObjectHideFlags: 0
@@ -6216,13 +6216,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1001796533
 GameObject:
   m_ObjectHideFlags: 0
@@ -6358,13 +6358,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1015382769
 GameObject:
   m_ObjectHideFlags: 0
@@ -6570,13 +6570,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1028513131
 GameObject:
   m_ObjectHideFlags: 0
@@ -6847,13 +6847,13 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 1
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1114804013
 GameObject:
   m_ObjectHideFlags: 0
@@ -6954,13 +6954,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1151735648
 GameObject:
   m_ObjectHideFlags: 0
@@ -7108,13 +7108,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1174744492
 GameObject:
   m_ObjectHideFlags: 0
@@ -7215,13 +7215,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1181730759
 GameObject:
   m_ObjectHideFlags: 0
@@ -7571,13 +7571,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1262536671
 GameObject:
   m_ObjectHideFlags: 0
@@ -7678,13 +7678,13 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 1
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 5.36
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1267145385
 GameObject:
   m_ObjectHideFlags: 0
@@ -7785,7 +7785,7 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -533.1, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
@@ -7892,13 +7892,13 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 1
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1274951105
 GameObject:
   m_ObjectHideFlags: 0
@@ -8222,13 +8222,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1294503601
 GameObject:
   m_ObjectHideFlags: 0
@@ -8329,13 +8329,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1306291954
 GameObject:
   m_ObjectHideFlags: 0
@@ -8436,13 +8436,13 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 1
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1316406111
 GameObject:
   m_ObjectHideFlags: 0
@@ -8936,13 +8936,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1378347058
 GameObject:
   m_ObjectHideFlags: 0
@@ -9043,13 +9043,13 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 1
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1396200308
 GameObject:
   m_ObjectHideFlags: 0
@@ -9206,13 +9206,13 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 1
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 5.36
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1413077886
 GameObject:
   m_ObjectHideFlags: 0
@@ -9313,13 +9313,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1425623307
 GameObject:
   m_ObjectHideFlags: 0
@@ -9420,13 +9420,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1472010154
 GameObject:
   m_ObjectHideFlags: 0
@@ -9527,13 +9527,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1477070390
 GameObject:
   m_ObjectHideFlags: 0
@@ -9634,13 +9634,13 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 1
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1486896192
 GameObject:
   m_ObjectHideFlags: 0
@@ -9846,13 +9846,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1506044661
 GameObject:
   m_ObjectHideFlags: 0
@@ -9953,13 +9953,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1548444767
 GameObject:
   m_ObjectHideFlags: 0
@@ -10060,13 +10060,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1557084247
 GameObject:
   m_ObjectHideFlags: 0
@@ -10167,13 +10167,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1565000099
 GameObject:
   m_ObjectHideFlags: 0
@@ -10366,7 +10366,7 @@ MonoBehaviour:
   maxConsecutiveChunks: 3
   maxConsecutiveChunksAtOneFrame: 2
   drawGizmos: 0
-  m_terrainNoise: {fileID: 224357611}
+  m_terrainShape: {fileID: 224357611}
   distanceShape: 1
   levelsOfDetail: 8
   detailDistanceBase: 2
@@ -10395,7 +10395,7 @@ MonoBehaviour:
   waterParent: {fileID: 872216873}
   generatePeriod: 0.3
   drawGizmos: 0
-  m_terrainNoise: {fileID: 224357611}
+  m_terrainShape: {fileID: 224357611}
   levelsOfDetail: 8
 --- !u!1 &1574758285
 GameObject:
@@ -10497,13 +10497,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1614098300
 GameObject:
   m_ObjectHideFlags: 0
@@ -10604,13 +10604,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1624746237
 GameObject:
   m_ObjectHideFlags: 0
@@ -10661,7 +10661,7 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -533.1, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
@@ -10975,13 +10975,13 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 1
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1662691395
 GameObject:
   m_ObjectHideFlags: 0
@@ -11082,13 +11082,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1670453548
 GameObject:
   m_ObjectHideFlags: 0
@@ -11189,13 +11189,13 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 1
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1672095716
 GameObject:
   m_ObjectHideFlags: 0
@@ -11296,13 +11296,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1695693163
 GameObject:
   m_ObjectHideFlags: 0
@@ -11508,13 +11508,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1703562930
 GameObject:
   m_ObjectHideFlags: 0
@@ -11615,13 +11615,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1706263959
 GameObject:
   m_ObjectHideFlags: 0
@@ -11722,7 +11722,7 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -533.1, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
@@ -11829,13 +11829,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1764214107
 GameObject:
   m_ObjectHideFlags: 0
@@ -12001,13 +12001,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1795593748
 GameObject:
   m_ObjectHideFlags: 0
@@ -12108,13 +12108,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1817967559
 GameObject:
   m_ObjectHideFlags: 0
@@ -12215,7 +12215,7 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -533.1, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
@@ -12322,13 +12322,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1850364909
 GameObject:
   m_ObjectHideFlags: 0
@@ -12429,13 +12429,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1862849870
 GameObject:
   m_ObjectHideFlags: 0
@@ -12536,13 +12536,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1865125294
 GameObject:
   m_ObjectHideFlags: 0
@@ -12764,13 +12764,13 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1916220901
 GameObject:
   m_ObjectHideFlags: 0
@@ -12871,13 +12871,13 @@ MonoBehaviour:
   size: {x: 256, y: 128, z: 256}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &1924010304
 GameObject:
   m_ObjectHideFlags: 0
@@ -13115,13 +13115,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1001 &1979352518
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13363,13 +13363,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &2004836079
 GameObject:
   m_ObjectHideFlags: 0
@@ -13565,13 +13565,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &2040273586
 GameObject:
   m_ObjectHideFlags: 0
@@ -13672,13 +13672,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &2082605828
 GameObject:
   m_ObjectHideFlags: 0
@@ -13779,7 +13779,7 @@ MonoBehaviour:
   size: {x: 32, y: 128, z: 32}
   noiseSize: 1
   noiseOffset: {x: -533.1, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
@@ -14009,13 +14009,13 @@ MonoBehaviour:
   size: {x: 128, y: 128, z: 128}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1 &2110131399
 GameObject:
   m_ObjectHideFlags: 0
@@ -14116,13 +14116,13 @@ MonoBehaviour:
   size: {x: 64, y: 128, z: 64}
   noiseSize: 1
   noiseOffset: {x: -1102, y: 0, z: 0}
-  terrainNoise: {fileID: 224357611}
+  terrainShape: {fileID: 224357611}
   debug: 0
   threshold: 0
   useMiddlePoint: 0
   drawGizmos: 0
   gizmosSize: 0.1
-  m_generateFlag: 0
+  m_generateFlag: 1
 --- !u!1001 &60889539378096550
 PrefabInstance:
   m_ObjectHideFlags: 0
